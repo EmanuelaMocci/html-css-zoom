@@ -71,7 +71,7 @@ body{
 /* Main */
 main{
     background-color: #1b1b1b;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 40px -50px);
 }
 .contenitore-main{
     max-width: 80%;
@@ -188,4 +188,8 @@ main{
     background-image: url(../img/img-25.jpeg);
 }
 
-
+/* Footer */
+footer{
+    background-color: #232628;
+    height: 50px;
+}

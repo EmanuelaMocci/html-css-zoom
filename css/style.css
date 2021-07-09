@@ -15,10 +15,10 @@ body{
 /* Header */
 .contenitore-header{
     display: flex;
+    justify-content: space-between;
     height: 40px;
     background-color: #1b1b1b;
     padding: 5px;
-    justify-content: space-between;
 }
 .contenitore-header-sinistra, .contenitore-header-destra{
     display: flex;
@@ -192,4 +192,32 @@ main{
 footer{
     background-color: #232628;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
+
+/* Contenitore footer sinistra */
+.contenitore-footer-sinistra{
+    display: flex;
+    margin: 0 25px;
+}
+.contenitore-footer-sinistra i{
+    font-size: 15px;
+}
+.microphone, .video{
+    text-align: center;
+    color: #aaabac;
+    font-weight: 400;
+    margin-right: 3px;
+}
+.video{
+    margin-left: 20px;
+}
+.contenitore-footer-sinistra .testo{
+    font-size: 10px;
+}
+.fa-angle-up{
+    color: #aaabac;
+}
+
+/* Contenitore footer centrale */

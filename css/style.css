@@ -107,6 +107,8 @@ main{
     font-weight: 300;
     font-size: 11px;
 }
+
+/* Immagini Main */
 .img-1{
     background-image: url(../img/img-1.jpeg);
 }

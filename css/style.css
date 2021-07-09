@@ -76,6 +76,7 @@ main{
 .contenitore-main{
     max-width: 80%;
     margin: auto;
+    display: flex;
 }
 img{
     width: 250px;

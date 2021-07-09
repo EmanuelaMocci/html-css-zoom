@@ -5,3 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+.contenitore-header{
+    display: flex;
+    background-color: #1b1b1b;
+    padding: 5px;
+}
+.contenitore-header > i{
+    color: #25d959;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.rec{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.contenitore-header .rec span{
+    color: #909090
+}
+
+/* Icona recording con animazione */
+.contenitore-header .rec>i{
+    color: red;
+    animation-name: rec;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgb(243, 5, 5);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(236, 7, 7, 0.7);
+	}
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(247, 92, 92, 0);
+	}
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(236, 11, 11, 0);
+	}
+}

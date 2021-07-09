@@ -15,6 +15,7 @@ body{
 /* Header */
 .contenitore-header{
     display: flex;
+    height: 40px;
     background-color: #1b1b1b;
     padding: 5px;
     justify-content: space-between;
@@ -68,3 +69,35 @@ body{
 }
 
 /* Main */
+main{
+    background-color: #1b1b1b;
+    height: calc(100vh - 40px);
+}
+.contenitore-main{
+    max-width: 80%;
+    margin: auto;
+}
+img{
+    width: 250px;
+    border-radius: 8px;
+}
+.contenitore-img{
+    position: relative;
+}
+.name{
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.name a{
+    color: red;
+    padding-right: 3px;
+}
+.name span{
+    color: white;
+    font-weight: 300;
+    font-size: 11px;
+}

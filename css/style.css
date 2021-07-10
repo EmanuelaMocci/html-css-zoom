@@ -72,13 +72,30 @@ body{
 main{
     background-color: #1b1b1b;
     height: calc(100vh - 40px -50px);
+    display: flex;
 }
 .contenitore-main{
-    max-width: 80%;
-    margin: auto;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.button-main-sinistra{
+    width: 10%;
+    position: relative;
+}
+.button-main-sinistra button{
+    position: absolute;
+    bottom: 50%;
+    background-color: #1d1d1d;
+    border: 1px solid;
+    margin-left: 10px;
+    
+}
+.button-main-sinistra button i{
+    color: #2db8ff;
+    font-size: 35px;
+    padding: 20px 20px 8px 20px;
 }
 .contenitore-img{
     background-repeat: no-repeat;
@@ -217,7 +234,7 @@ main{
 .testo{
     font-size: 10px;
 }
-footer i{
+footer i, button div{
     color: #aaabac;
 }
 

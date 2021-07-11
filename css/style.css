@@ -11,6 +11,25 @@ body{
     font-family: 'Lato', sans-serif;
     font-size: 13px;
 }
+button:hover{
+    opacity: 0.75;
+}
+.hover-img{
+    display: none;
+}
+.contenitore-img:hover .hover-img{
+    display: block;
+    width: 30px;
+    height: 15px;
+    background-color: #2db8ff;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+}
 
 /* Header */
 .contenitore-header{
@@ -150,6 +169,7 @@ main{
 }
 .img-3{
     background-image: url(../img/img-3.jpeg);
+    border: 4px solid yellow;
 }
 .img-4{
     background-image: url(../img/img-4.jpeg);
